@@ -141,6 +141,7 @@ body{
   .home .content{
     flex:1 1 40rem;
     padding-top: 6.5rem;
+    margin-left:18px;
   }
   
   .home .image{
@@ -184,6 +185,7 @@ body{
     left:150px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 34px;
+    margin-left:18px;
   }
 
 

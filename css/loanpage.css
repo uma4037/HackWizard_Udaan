@@ -1,0 +1,191 @@
+:root{
+    --primary:#FFA0A0;
+    --dark:#262A53;
+    --smoke:#628395;
+    --lightpink:#FFE3E3;
+    --pure:#FFFFFF;
+  }
+  
+  
+  body{
+      font-family: 'Montserrat';
+      text-align: center;
+    }
+    
+    h1,h2,h3,h4,h5,h6{
+      font-family: "Montserrat-black";
+    }
+    
+    
+    p{
+      color: #fff;
+    }
+    
+    
+    .container-fluid{
+      padding: 5% 15% 7%;
+      
+    }
+  
+    .upper-div{
+      height: 100vh;
+      overflow: hidden;
+    }
+   
+    
+  
+  
+    /* Navigation Bar */
+  .navbar{
+      padding: 0 0 4.5rem;
+    }
+    
+    .navbar-brand{
+      font-size: 2.5rem;
+      font-weight: bold;
+    }
+    .navbar-logo{
+      width: 70%;
+    }
+    .nav-item{
+      padding: 0 9.1px;
+    }
+    
+    .navbar-btn{
+        background-color: #FFA0A0;
+        color:var(--dark);
+        border-radius: 2rem;
+        font-size: 18px;
+        padding: .4rem .2rem;
+        width: 95px;
+        height: 40px;
+    }
+  
+  
+  
+  /* upper div */
+  
+  
+  /* form */
+  .contact-info-form{
+      margin-top: 2rem;
+  }
+  .contact-info-form-input input{  
+      border-radius: 10rem;
+      background-color: var(--primary);
+      color: var(--dark);
+    }
+    .contact-info-form-input textarea{  
+      border-radius: 1rem;
+      background-color: #FFA0A0;
+      color: var(--dark);
+    }
+    .submit-button{
+      
+      background: var(--primary);     
+      color: var(--dark);
+      border-radius: 3rem;
+      /* margin-top: 3rem; */
+            box-shadow: inset .15rem .15rem  #b37389,
+            .15rem .05rem .25rem #7073a3,
+            inset .15rem .05rem .15rem #f4abc4;
+    }
+  
+  
+  
+  .contact-svg{
+      width:60%;
+      position: absolute;
+      right: 20%;
+      top: 5rem;
+      padding:5px 20px 0px 20px;
+   }
+  
+  
+   /* show-hide hidden text */
+   .HiddenText {
+      display: none;
+  }
+  .contact-info-card:hover{
+      background-color: #FFA0A0;
+      color: #fff !important;
+  }
+  .contact-info-card:hover .HiddenText {
+      display:block;
+      
+  }
+  .contact-info-card:hover .contact-info-card-icon {
+      display:none;
+  }
+  
+  
+  
+   .contact-info-card-icon{
+      position: relative;
+      top:1rem;
+       
+   }
+   .contact-info-card-text{
+       font-size: .75rem;
+       /* position: relative;
+       top:1.5rem; */
+       font-weight: bold;
+       margin: 1rem .25rem;
+   }
+   .phone-card{
+      position: absolute;
+      right: 50%;
+      top: -1rem;
+   }
+   .email-card{
+      position: absolute;
+      right: 5%;
+      top: 2rem;
+   }
+   .location-card{
+      position: absolute;
+      right: 0;
+      top: 10rem;
+   }
+   
+   
+  
+    
+    /* Footer Section */
+    .social-icon{
+      margin: 20px 10px;
+    }
+    .logo-div{
+      text-align: left;
+      color: #ffffff;
+  } 
+  .footer-logo{
+    width: 70%;
+    margin-top: -2rem;
+  }
+  .footer-logo-slogan{
+    margin-top: -5rem;
+    margin-left:20px;
+  }
+  .footer-contact{
+      color: var(--dark);
+  }
+  .footer-contact:hover{
+      color: var(--dark);
+      text-decoration: none;
+  }
+  
+    
+    
+  /* Sections */
+  .blue-section{
+    background-color: #262A53;
+    color: var(--dark);
+  }
+  .pink-section{
+    background-color: #FFA0A0 ;
+  }
+  
+      
+    
+    
