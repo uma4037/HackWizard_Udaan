@@ -339,7 +339,39 @@ body{
 
 
 
-  
+/* Footer Section */
+#footer{
+  font-family: 'Montserrat';
+    text-align: center;
+    padding: 5% 15% 7%;
+    
+} 
+#footer p{
+  color: #fff;
+}
+#footer h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-black";
+}
+.social-icon{
+    margin: 20px 10px;
+}
+.logo-div{
+    text-align: left;
+    color: #ffffff;
+} 
+.footer-logo{
+  width: 70%;
+  margin-top: -2rem;
+}
+.footer-logo-slogan{
+  margin-top: -5rem;
+}
+.footer-contact{
+    color: #ffffff;
+}
+.footer-contact:hover{
+    color: #ffffff;
+}
   
 
 
