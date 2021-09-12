@@ -3,8 +3,9 @@
 
 ## <b>“Udaan – Wings to Her Dreams”</b> is a web application. 
 <br/>
-####  Our inspiration behind making this website for female empowerment and making them self- independent. We are trying to improve the status of women in the society.
-####  Our web application supports Android, Windows and IOS. The techstacks which we have used are - HTML, CSS and JavaScript. 
+<p>Our inspiration behind making this website for female empowerment and making them self- independent. We are trying to improve the status of women in the society.</p>
+<br />
+<p>Our web application supports Android, Windows and IOS. The techstacks which we have used are - HTML, CSS and JavaScript.</p>
 <br/>
 <br/>
 
