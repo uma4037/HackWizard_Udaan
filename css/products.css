@@ -1,3 +1,11 @@
+:root{
+    --primary:#FFA0A0;
+    --dark:#262A53;
+    --smoke:#628395;
+    --lightpink:#FFE3E3;
+    --pure:#FFFFFF;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -51,14 +59,54 @@ nav a {
     font-size: 17px;
 }
 
-.btn {
+/* .btn {
     background-color: rgb(0, 0, 83);
     padding: 12px 28px;
     transition-duration: 0.5s;
     display: inline-block;
     margin: 4px 4px;
-    border-radius: 12px;
-}
+    border-radius: 12px; 
+    background:var(--dark);
+    color:var(--pure);
+    font-size: 19px;
+    width: 124px;
+    height: 49px;
+    top:20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+} */
+
+.btn.btn1{
+    background:var(--dark);
+    color:var(--pure);
+    position: absolute;
+    font-size: 17px;
+    width: 124px;
+    height: 49px;
+    left: 1450px;
+    top: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    margin-right:36%;
+    padding-top:10px;
+    padding-left:29px;
+   }
+
+   /* .btn.btn2{
+    background:var(--dark);
+    color:var(--pure);
+    font-size: 16px;
+    position: absolute;
+    width: 124px;
+    height: 49px;
+    left: 1200px;
+    top: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    padding-top:10px;
+    margin-left:4rem;
+    margin-right:-7rem;
+} */
 
 .btn:hover {
     background-color: rgb(243, 140, 140);
@@ -75,6 +123,8 @@ main {
 
 .hero-right {
     height: 20x;
+    margin-right: 70px;
+    padding-bottom: 10px;
 }
 
 .heroleft {
@@ -86,32 +136,39 @@ main {
     font-size: 55px;
     margin-bottom: 20px;
     position: relative;
+    width:75%;
+    padding-left:20%;
 }
 
-.btn1 {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: white;
-    background-color: rgb(0, 0, 83);
-    padding: 15px 32px;
-    transition-duration: 0.5s;
-    display: inline-block;
-    margin: 4px 2px;
-    border-radius: 12px;
-    margin-right: 70px;
-    text-align: center;
+.hero-btn a{
+    background:var(--dark);
+    color:white;
+    position: absolute;
+    font-size: 17px;
+    width: 124px;
+    height: 49px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    margin-left:-9.1%;
+    padding-top:14px;
+    padding-left:22px;
+    text-decoration:none;
+    
 }
 
 .heroleft p {
     margin-bottom: 35px;
     font-weight: 500;
     word-spacing: 4px;
+    width:89%;
+    padding-left:20%;
 }
 
 .hero-btn {
     display: flex;
     justify-content: center;
     align-items: center;
+    color:white;
 }
 
 
