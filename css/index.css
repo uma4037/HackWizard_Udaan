@@ -112,6 +112,10 @@ body{
   0px 4px 4px rgba(0, 0, 0, 0.25);
   padding: 3% 2%;
 }
+.section2-card .card-body{
+  font-size: 3rem;
+  word-spacing: 1rem;
+}
 
 
 
