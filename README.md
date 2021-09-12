@@ -7,7 +7,6 @@
 <br />
 <p>Our web application supports Android, Windows and IOS. The techstacks which we have used are - HTML, CSS and JavaScript.</p>
 <br/>
-<br/>
 
 ### Udaan website consists of 4 pages, which are following –
 
